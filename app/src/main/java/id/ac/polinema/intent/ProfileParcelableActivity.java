@@ -13,7 +13,7 @@ import static id.ac.polinema.intent.BundleActivity.USERNAME_KEY;
 
 public class ProfileParcelableActivity extends AppCompatActivity {
 
-    private static final String USER_KEY = "user";
+    public static final String USER_KEY = "user";
     private TextView usernameText;
     private TextView nameText;
     private TextView ageText;

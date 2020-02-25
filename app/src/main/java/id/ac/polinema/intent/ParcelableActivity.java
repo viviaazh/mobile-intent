@@ -14,8 +14,6 @@ import static id.ac.polinema.intent.ProfileParcelableActivity.USER_KEY;
 
 public class ParcelableActivity extends AppCompatActivity {
 
-
-
     private EditText usernameInput;
     private EditText nameInput;
     private EditText ageInput;

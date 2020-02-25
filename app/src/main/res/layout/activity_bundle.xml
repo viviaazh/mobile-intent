@@ -86,10 +86,9 @@
     </LinearLayout>
 
     <Button
-        android:text="@string/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="handleSubmit"
-        />
+        android:text="@string/submit" />
 
 </LinearLayout>

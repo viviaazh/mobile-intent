@@ -34,7 +34,7 @@ public class ProfileParcelableActivity extends AppCompatActivity {
             User user = getIntent().getParcelableExtra(USER_KEY);
             usernameText.setText(user.getUsername());
             nameText.setText(user.getName());
-            ageText.setText(user.getAge());
+            ageText.setText(String.valueOf(user.getAge()));
         }
     }
 }
